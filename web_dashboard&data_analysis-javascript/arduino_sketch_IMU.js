@@ -361,24 +361,3 @@ function draw() {
   text(`Position Z: `+Math.floor(Pgz), 550, 350);
 
   text(`Count : `+Count, 750,300);
-/*
-  text(`Test X: `+Tgx, 800, 250);
-  text(`Test Y: `+Tgy, 800, 300);
-  text(`Test Z: `+Tgz, 800, 350);
-*/
-}
-
-/*
-function gotCharacteristics(error, characteristics) {
-  if (error) console.log('error: ', error);
-  console.log('characteristics: ', characteristics);
-  // Set the first characteristic as myCharacteristic
-  myCharacteristic = characteristics[0];
-}
-
-function writeToBle() {
-  const inputValue = input.value();
-  // Write the value of the input to the myCharacteristic
-  myBLE.write(myCharacteristic, inputValue);
-}
-*/
